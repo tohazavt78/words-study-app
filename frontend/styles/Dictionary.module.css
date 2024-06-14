@@ -1,0 +1,82 @@
+.containerDictionary{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+    }
+
+  .containerMessage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+  .message{
+    color: #dc2626;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+    width: 89px;
+    }
+
+  .addButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    width: 250px;
+    border: 0;
+    background-color: #4763e4;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    }
+
+  .tableContainer{
+    height: 100%;
+    margin-top: 150px;
+    width: 800px;
+    }
+
+  .table{
+  width: 100%
+  }
+
+  .tbody{
+  width: 100%
+  }
+
+  .tr{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    }
+
+  .th{
+    color: #a1a1aa;
+    width: 33%;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    height: 19px;
+    }
+
+  .td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    font-size: 20px;
+    margin: 3px 0;
+    height: 34px;
+    border-bottom: solid #f4f4f5;
+    }
+
+  .tdButton{
+    width: 100px;
+    border-radius: 10px;
+    height: 26px;
+    color: white;
+    background-color: #dc2626;
+    border: 0;
+    }
