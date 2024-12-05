@@ -1,0 +1,52 @@
+.containerWords{
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newWords{
+    margin: 15px;
+  }
+
+  .text{
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .input{
+    width: 400px;
+    border-radius: 10px;
+    height: 38px;
+    border: solid 1px #5c73db;
+  }
+
+  .confirm{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: #4763e4;
+    align-items: center;
+    border-radius: 10px;
+    margin: 25px;
+    height: 38px;
+    border: 0;
+    }
+
+  .confirmText{
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .toast{
+    position: fixed;
+    justify-self: center;
+    bottom: 20px;
+    background-color: #333;
+    align-self: end;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    }
